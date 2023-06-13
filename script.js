@@ -22,7 +22,7 @@ function search(userInput) {
             listItem.classList.add('has-suggestions');
             listItem.setAttribute('onclick', "useSuggestion('" + fruit + "')");
             //display the value in array in bold
-            let newWord = fruit.replace(input.value, '<b>' + input.value + '</b>')
+            let newWord = fruit.toLowerCase().replace(input.value.toLowerCase(), '<b>' + input.value + '</b>')
             listItem.innerHTML = newWord;
             //attach listItem to ul
             document.querySelector('.suggestions').appendChild(listItem);
