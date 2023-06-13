@@ -26,6 +26,10 @@ input {
  padding-left: 5px;
 }
 
+input::placeholder {
+    color: rgb(73, 73, 73);
+}
+
 .search-container {
  /* TODO */
  height: 50px;
