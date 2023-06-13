@@ -21,7 +21,7 @@ input {
  line-height: 50px;
  font-family: 'Roboto', sans-serif;
  border-radius: 2px;
- width: 400px;
+ width: 500px;
  border: 0;
  padding-left: 5px;
 }
@@ -36,7 +36,7 @@ input {
  background: rgba(255, 255, 255, 0.1);
  border-bottom: 2px solid #cb5508;
  border-radius: 2px;
- width: 400px;
+ width: 500px;
  
 }
 .search-container input,
@@ -83,6 +83,6 @@ input {
    line-height: 50px;
    font-family: 'Roboto', sans-serif;
    border-radius: 2px;
-   width: 400px;
+   width: 500px;
    border: 0;
 }
