@@ -15,13 +15,12 @@ body {
 }
 
 input {
- /* TODO */
  flex: 1;
  background: transparent;
  line-height: 50px;
  font-family: 'Roboto', sans-serif;
  border-radius: 2px;
- width: 500px;
+ width: 400px;
  border: 0;
  padding-left: 5px;
 }
@@ -40,53 +39,27 @@ input::placeholder {
  background: rgba(255, 255, 255, 0.1);
  border-bottom: 2px solid #cb5508;
  border-radius: 2px;
- width: 500px;
+ width: 400px;
  
 }
-.search-container input,
+
 .search-container .suggestions {
-  /* TODO */
-}
-.search-container input {
- /* TODO */
- 
-}
-.search-container .suggestions {
-   /* TODO */
    list-style: none;
 }
 
 ul {
-  /* TODO */
   padding: 0px 0px;
-  
-
 }
 
-ul.has-suggestions {
-   
-  
-}
+
 ul li {
-  /* TODO */
   list-style: none;
   padding: 5px 5px;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 2px;
+
 }
 ul li:hover {
-  /* TODO */
   background-color: #cb5508;
-}
-
-input {
-   /* TODO */
-   flex: 1;
-   background: transparent;
-   line-height: 50px;
-   font-family: 'Roboto', sans-serif;
-   border-radius: 2px;
-   width: 500px;
-   border: 0;
 }
